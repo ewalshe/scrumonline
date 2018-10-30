@@ -4,3 +4,5 @@ src/config.php
 proxies/
 .vagrant/
 mysql_db
+
+.idea
