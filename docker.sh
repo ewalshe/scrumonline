@@ -21,11 +21,11 @@ case $command in
      echo "Starting container $container_name..."
      mysql_dir=$2
      if [ -n "$mysql_dir" ]; then     
-        docker run -d --name $container_name -p 8080:80 -p 3306:3306 \
+        docker run -d --name $container_name -p 8080:80  \
                     -v $current_dir:/var/www/scrumonline -v $current_dir/$mysql_dir:/var/lib/mysql \
                     $image
      else
-        docker run -d --name $container_name -p 8080:80 -p 3306:3306 \
+        docker run -d --name $container_name -p 8080:80  \
                     -v $current_dir:/var/www/scrumonline $image
      fi                
      echo "...done!"

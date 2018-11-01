@@ -47,5 +47,5 @@ ENV PHP_POST_MAX_SIZE 10M
 # Add volumes for MySQL and webroot
 VOLUME  ["/var/lib/mysql", "/var/www/scrumonline"]
 
-EXPOSE 80 3306
+EXPOSE 80
 CMD ["/utils/run.sh"]
