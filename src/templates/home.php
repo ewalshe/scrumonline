@@ -4,27 +4,19 @@ include "config.php";
 <!-- Introduction -->
 <div class="row">
   <article class="col-xs-12">
-    <p>
-      <h2>Scrum Online</h2>
-      Welcome to my open source Planning Poker&reg; web app. Use of this app is free of charge for everyone. As a scrum master just start 
-      a named session and invite your team to join you. It is recommended to display the scrum master view on the big screen 
-      (TV or projector) and let everyone else join via smartphone. To join a session just enter the id displayed in the 
-      heading of the scrum master view.
-    </p>
-
-    <p>
-      Developing, maintaining and hosting this application costs personal time and money. Almost 20.000 users access the application
-      each month to perform over 28.000 polls. This increase in traffic will exceed the current hosting soon and requires additional
-      funding. I would also like to setup mirrors around the world for comparable loading times. To keep the page ad-free, I am asking
-      for your help. If you would like to support my efforts and help keep the lights on, you can either donate trough the button below 
-      or <a target="_blank" href="https://github.com/Toxantron/scrumonline#sponsoring">become an official sponsor</a>.
-    </p>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="ULK4XY7UZRZL8">
-      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-    </form>
+      <h2>Planning Poker Game</h2>
+      <p>
+          This site is a clone of <a href="https://scrumpoker.online">scrumpoker.online</a> and was forked from
+          <a href="https://github.com/Toxantron/scrumonline">Toxantron/scrumonline</a>.
+      </p>
+      <p>
+          As a scrum master just start
+          a named session and invite your team to join you. It is recommended to display the scrum master view on the
+          big screen
+          (TV or projector) and let everyone else join via smartphone. To join a session just enter the id displayed in
+          the
+          heading of the scrum master view.
+      </p>
   </article>
 </div>
             

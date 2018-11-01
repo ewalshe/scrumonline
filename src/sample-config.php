@@ -21,6 +21,8 @@ $cardSets = [
     ['1', '2', '3', '5', '8', '13', '20', '40', '?'],
     // Powers of two used by other teams
     ['0' ,'1', '2', '4', '8', '16', '32', '64'],
+    // Powers of two scale but mapped to real time
+    ['0' ,'1h', '2h', '4h', '1d', '2d', '4d', '8d', '?'],
     // Card set used to estimate hours as different fractions and multiples of a working day
     ['1', '2', '4', '8', '12', '16', '24', '32', '40'],
     // Demonstration of the coffee cup card

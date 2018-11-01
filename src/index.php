@@ -46,11 +46,13 @@ foreach($templates as $index=>$template)
 <![endif]-->
 
 <!--Github Fork Badge -->
+<!--
 <div class="github-fork-ribbon-wrapper hidden-xs">
   <div class="github-fork-ribbon">
     <a target="_blank" href="https://github.com/Toxantron/scrumonline">Fork me on GitHub</a>
   </div>
 </div>
+-->
 
 <!-- Top navigation bar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -82,8 +84,10 @@ foreach($templates as $index=>$template)
 
 <!-- Footer contains sponsors -->
 <footer class="page-footer font-small">
-  <h3>Sponsored by</h3>
+<!--
+    <h3>Sponsored by</h3>
   <?= Sponsor::renderFooter() ?>
+-->
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
